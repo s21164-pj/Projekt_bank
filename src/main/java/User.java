@@ -1,3 +1,5 @@
+import javax.validation.constraints.Email;
+
 public class User {
     private int id;
     private int age;
@@ -38,4 +40,30 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSecondName() {
+        return secondName;
+    }
+
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+
 }
